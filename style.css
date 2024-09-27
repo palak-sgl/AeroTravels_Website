@@ -291,3 +291,137 @@ i:hover{
     font-weight: bold;
     padding-right: 1rem;
 }
+
+.counts {
+    display: flex;
+    justify-content: space-around;
+    padding-top:3rem ;
+}
+.item {
+    text-align: center;
+}
+.item span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+
+.item p{
+    font-weight: 700;
+    color: #555;
+}
+
+.banner{
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #00000032;
+}
+
+.banner p{
+    width: 60%;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.banner a{
+    width: 40%;
+
+}
+
+.btn-banner{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.2em 2em;
+    border: 3px solid white;
+    color: #f4f4f4;
+}
+
+/* contact page */
+.heading{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.heading span{
+    color: #e63946;
+}
+.para{
+    text-align: center;
+    font-size:1.2rem;
+}
+
+.inner{
+    display: flex;
+    width: 900px;
+    margin-left: 30rem;
+    /* margin-right: 15rem; */
+    height: 500px;
+    justify-content: space-around; 
+
+}
+.inner form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.675);
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.315);
+    margin-top: 3rem;
+}
+
+form input{
+    margin-bottom: 2rem;
+    height: 3.7rem;
+    font-size: 1.2rem;
+    padding-left: 1.7rem;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border: 0.9px solid rgba(25, 2, 2, 0.026);
+    font-family:  Arial;
+    letter-spacing: 0.2;
+}
+form textarea{
+    font-size: 1.2rem;
+    padding-left: 1.7rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    border: 0.9px solid rgba(25, 2, 2, 0.026);
+    background-color: #f8f8f8;
+    font-family:  Arial;
+    letter-spacing: 0.2;
+}
+
+.submit-btn{
+    margin-top: 1.4rem;
+    color:white;
+    background-color: #ee4758;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+form p{
+    font-size: 1rem;
+    letter-spacing: 0;
+    padding: 0.7rem;
+   text-align: center;
+}
+
+.img-contact{
+    width:250px;
+    height:350px;
+    max-width: max-content;
+}
